@@ -145,7 +145,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              MBD.DEV
+              DOCTOR DEV
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
@@ -234,9 +234,11 @@ function App() {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 via-purple-600 to-orange-500 p-1">
               <div className={`w-full h-full rounded-full ${isDarkMode ? 'bg-slate-900' : 'bg-white'} flex items-center justify-center`}>
-                <span className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-                  MBD
-                </span>
+                <img
+                  src="/photo.jpg" // Remplacez par le nom exact de votre fichier
+                  alt="Mamadou Bassirou DIAME"
+                  className="w-28 h-28 rounded-full object-cover"
+                />
               </div>
             </div>
           </div>
