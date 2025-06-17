@@ -235,7 +235,7 @@ function App() {
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-500 via-purple-600 to-orange-500 p-1">
               <div className={`w-full h-full rounded-full ${isDarkMode ? 'bg-slate-900' : 'bg-white'} flex items-center justify-center`}>
                 <img
-                  src="/photo.jpg" // Remplacez par le nom exact de votre fichier
+                  src="/mamadou_bassirou_diame.jpeg" // Remplacez par le nom exact de votre fichier
                   alt="Mamadou Bassirou DIAME"
                   className="w-28 h-28 rounded-full object-cover"
                 />
