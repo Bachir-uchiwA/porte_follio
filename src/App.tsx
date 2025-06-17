@@ -238,7 +238,7 @@ function App() {
                 <img
                   src={mamadouPhoto}
                   alt="Mamadou Bassirou DIAME"
-                  className="w-28 h-28 rounded-full object-cover"
+                  className="w-20 h-20 rounded-full object-cover"
                 />
               </div>
             </div>
