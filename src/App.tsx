@@ -85,7 +85,7 @@ function App() {
     {
       name: 'JOTAAY',
       description: 'Réseau social pédagogique full-stack avec système d\'authentification sécurisé et fonctionnalités d\'interaction sociale complètes.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+      tech: ['HTML', 'Tailwindcss', 'JavaScript', 'VITE'],
       link: 'https://projet-javascript.vercel.app/login.html',
       image: 'https://images.pexels.com/photos/5935794/pexels-photo-5935794.jpeg?auto=compress&cs=tinysrgb&w=500',
       gradient: 'from-blue-600 to-purple-700'
@@ -101,7 +101,7 @@ function App() {
     {
       name: 'Gestion des Apprenants',
       description: 'Système de gestion académique complet permettant l\'enregistrement, le suivi et la mise à jour des informations étudiantes.',
-      tech: ['PHP', 'MySQL', 'HTML', 'CSS'],
+      tech: ['PHP', 'Fichier json', 'HTML', 'CSS'],
       link: 'http://bachirdiame.infinityfreeapp.com/?page=login',
       image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=500',
       gradient: 'from-orange-500 to-yellow-600'
@@ -579,7 +579,7 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center">
             <div className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              MBD.DEV
+              DOCTOR DEV
             </div>
             <p className={`${themeClasses.textMuted} mb-8`}>
               Développeur Web/Mobile Fullstack & UI/UX Designer passionné par l'innovation
